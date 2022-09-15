@@ -1,1 +1,15 @@
 npm init  -y
+
+npx prettier file_directory
+
+npx prettier file_directory --write will edit the file
+
+install prettier extension and turn on Format on save in vs code settings
+
+Enable require prettier config this will make sure only run when the .prettierrc file is there
+
+Then create a script to run on all editors for prettier
+
+Then create a dev dependency of prettier by running "npm install -D prettier" -D is for making this  only work during the development and it is not needed in production
+
+check default formatter in vs code

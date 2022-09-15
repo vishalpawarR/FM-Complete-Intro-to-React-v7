@@ -13,3 +13,12 @@ Then create a script to run on all editors for prettier
 Then create a dev dependency of prettier by running "npm install -D prettier" -D is for making this  only work during the development and it is not needed in production
 
 check default formatter in vs code
+
+ES Lint -> https://btholt.github.io/complete-intro-to-react-v7/lessons/js-tools/eslint
+-------
+Run npm install -D eslint@8.8.0 eslint-config-prettier@8.3.0
+
+run: npx eslint src/app.js
+
+way: npm run lint -- --fix.
+

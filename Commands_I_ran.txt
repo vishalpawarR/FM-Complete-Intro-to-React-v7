@@ -35,3 +35,11 @@ npm install -D parcel@2.2.1
 
 
 npm install react@17.0.2 react-dom@17.0.2
+
+Bundler(Like webpack / parcel etc) is used to convert the react code to browser understandable code
+
+https://btholt.github.io/complete-intro-to-react-v7/lessons/js-tools/browserslist
+
+"browserslist": [
+    "last 2 Chrome versions"
+  ]

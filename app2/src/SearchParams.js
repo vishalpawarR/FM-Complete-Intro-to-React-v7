@@ -2,12 +2,12 @@ import { useState } from "react";
 // const location = "Seattle, WA";
 const SearchParams = () => {
     const [location, setLocation] = useState("Vishal");
-    console.log(location);
+    // console.log(location);
     return (
         <div className="search-params">
             <form>
                 <label htmlFor="location">
-                    Location
+                    Location {location}<br />
                     <input
                         id="location"
                         value={location}
